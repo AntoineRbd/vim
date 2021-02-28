@@ -9,16 +9,18 @@ set autoindent
 set cindent
 set incsearch
 
-colorscheme gruvbox
-
 set visualbell
 set t_vb=
 
+colorscheme desert
+colorscheme gruvbox
+
 set scrolloff=5
 set laststatus=2
+set diffopt+=vertical
 
 set list
-set listchars=tab:>─,eol:¬,trail:-,nbsp:-,space:.
+set listchars=tab:>─,eol:¬,trail:.,nbsp:¤,extends:>,precedes:<
 
 set fillchars=vert:│
 
